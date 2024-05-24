@@ -62,6 +62,7 @@ python do_dependencytrack_collect() {
                 "name": names[index],
                 "version": version,
                 "cpe": cpe,
+                "type": "application",
             }
             license_json = get_licenses(d)
             if license_json:
